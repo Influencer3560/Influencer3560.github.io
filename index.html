@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfred Odero | Portfolio</title>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --card-bg: #161b22;
+            --text-main: #c9d1d9;
+            --accent: #58a6ff;
+            --border: #30363d;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 1px solid var(--border);
+        }
+        h1 { color: #fff; margin: 0; font-size: 2.5rem; }
+        .subtitle { color: var(--accent); font-weight: 600; margin-top: 5px; }
+        .contact { font-size: 0.9rem; margin-top: 15px; color: #8b949e; }
+        h2 { color: #fff; border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-top: 40px; }
+        .grid { display: grid; grid-template-columns: 1fr; gap: 20px; margin-top: 20px; }
+        @media(min-width: 600px) { .grid { grid-template-columns: 1fr 1fr; } }
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 20px;
+            transition: transform 0.2s;
+        }
+        .card:hover { transform: translateY(-3px); border-color: var(--accent); }
+        .card h3 { margin: 0 0 10px 0; color: #fff; }
+        .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 15px; }
+        .tag { background: #21262d; border: 1px solid var(--border); color: var(--accent); padding: 3px 8px; border-radius: 12px; font-size: 0.75rem; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Alfred Odero</h1>[span_0](start_span)[span_0](end_span)
+        <div class="subtitle">Data Analyst & Python Automation Specialist</div>
+        <div class="contact">📍 Nairobi, Kenya &nbsp;|&nbsp; ✉️ alfredodero2406@gmail.com</div>[span_1](start_span)[span_1](end_span)
+    </header>
+
+    <section id="about">
+        <h2>Professional Summary</h2>
+        <p>Analytical Data Science specialist and freelance automation developer with a strong foundation in Applied Statistics and Data Science[span_2](start_span)[span_2](end_span). I expertize in writing custom Python scripts to scrape, clean, and transform unstructured web data into structured business insights[span_3](start_span)[span_3](end_span). Dedicated to delivering high-precision data curation and workflow automation for global clients[span_4](start_span)[span_4](end_span).</p>
+    </section>
+
+    <section id="services">
+        <h2>Core Services</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Web Scraping</h3>
+                <p>Custom automated extraction pipelines utilizing BeautifulSoup, Scrapy, and Selenium to mine data cleanly from target websites.</p>
+            </div>
+            <div class="card">
+                <h3>Data Pipeline Automation</h3>
+                <p>End-to-end data processing, handling missing values, structural cleaning, and file format conversions using Pandas and NumPy[span_5](start_span)[span_5](end_span).</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Technical Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Automated Data Scraping Pipeline</h3>
+                <p>Designed custom automated Python workflows to scrape, parse, and structure messy web data into pristine Excel/CSV reports.</p>
+                <div class="tags"><span class="tag">Python</span><span class="tag">BeautifulSoup</span><span class="tag">Automation</span></div>
+            </div>
+            <div class="card">
+                <h3>Predictive Modeling Pipeline</h3>
+                <p>Engineered feature sets and built machine learning classification models to clean variables and forecast survival metrics[span_6](start_span)[span_6](end_span).</p>
+                <div class="tags"><span class="tag">Scikit-Learn</span><span class="tag">Pandas</span><span class="tag">ML Classification</span></div>[span_7](start_span)[span_7](end_span)
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>BSc in Applied Statistics and Data Science</strong> (Expected 2027)<br>[span_8](start_span)[span_8](end_span)
+        <em>The Co-operative University of Kenya</em></p>[span_9](start_span)[span_9](end_span)
+    </section>
+</div>
+
+</body>
+</html>
